@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular dias entre 2 fechas</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+    	<div class="datos">
+	    	<form class="formulario">
+	    		<div class="fechas">
+		    		<div class="dInicial">
+		    			<p>Fecha Inicial: </p>
+		    			<input type="date" class="input" id="fInicial">
+		    		</div>
+
+						<div class="dFinal">
+		    			<p>Fecha Final: </p>
+							<input type="date" class="input" id="fFinal">
+						</div>	 
+					</div>
+					
+	    		<button type="button" class="btn" id="btnDatos">Enviar datos</button>
+	    	</form>
+    	</div>
+
+    	<div class="muestra">
+    		<i>Dias entre fechas: <span id="mostrar"></span></i>
+    	</div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
